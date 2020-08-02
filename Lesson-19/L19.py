@@ -17,7 +17,7 @@ class Polygon:
         def __init__(self,p1,p2):
             self.p1=p1
             self.p2=p2
-        def __len__(self):
+        def __abs__(self):
             return self.p1.dist(self.p2)
         def __repr__(self):
             return f'{self.p1}--{self.p2}'
@@ -38,7 +38,7 @@ class Polygon:
 # # l1=LSeg(p1,p2)
 # l1=LSeg(p1,(2,5))
 # print(l1)
-# print(len(l1))
+# print(abs(l1))
 poly1=Polygon((0,0),(2,4),(5,6),(3,4))
 print(len(poly1))
 print(poly1.vertices)
