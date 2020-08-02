@@ -17,14 +17,12 @@ class Polygon:
     @property
     def shape(self):
         pass
-        # All cross Products
+        # Check Intrsections as discussed in Algorithm
+        # if(any intersetion):
+            #return Complex
         # if (all cross product>=0 or all cross products <=0):
             #return 'Convex'
-        #else:
-            # chech inersections
-            #     if(any intersection)
-            #         return 'Complex'
-            # return 'Concave'
+        # return 'Concave'
         
     def __len__(self):
         return len(self.vertices)
